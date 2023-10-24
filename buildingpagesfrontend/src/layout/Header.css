@@ -1,0 +1,25 @@
+.nav-outer {
+  border: 2rem;
+}
+
+.navbar-brand {
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+
+  /* For mobile phones: */
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
